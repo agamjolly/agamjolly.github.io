@@ -21,6 +21,9 @@ const Description = styled.p `
   padding: 0;
   margin-bottom: 1rem;
   font-size: 1.4rem;
+  @media only screen and (max-width: 342px) {
+    font-size:1.2rem;
+  }
 `
 const Content = styled.p `
   padding: 0;
@@ -30,11 +33,12 @@ const Content = styled.p `
 `
 
 const NameHeader = styled.h1 `
-  font-family: 'Nunito', 'Avenir', 'Helvetica', 'sans-serif';
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-weight: 500;
   font-size: 4.2rem;
   margin-bottom: 0;
+  @media only screen and (max-width: 360px) {
+    font-size:3.5rem;
+  }
 `
 
 const LandingBio = () => ( <
@@ -51,7 +55,7 @@ const LandingBio = () => ( <
         data => ( 
             <OuterContainer>
             <Container>
-            <img src="https://scontent.fixc1-2.fna.fbcdn.net/v/t1.0-9/36772297_2042896542389231_3944715169732493312_n.jpg?_nc_cat=110&_nc_oc=AQkGZXEiHtGesP3eUY1Y71pfY_bFamn7dVXT8JAGZovV_6Qj_C4yPiC9pfcb_MfKvhw&_nc_ht=scontent.fixc1-2.fna&oh=4a83d29dec0755fb9a46333f9d5c434c&oe=5DB05322" class="picture" width="30%"></img>
+            <img src="https://scontent.fixc1-2.fna.fbcdn.net/v/t1.0-9/36772297_2042896542389231_3944715169732493312_n.jpg?_nc_cat=110&_nc_oc=AQkGZXEiHtGesP3eUY1Y71pfY_bFamn7dVXT8JAGZovV_6Qj_C4yPiC9pfcb_MfKvhw&_nc_ht=scontent.fixc1-2.fna&oh=4a83d29dec0755fb9a46333f9d5c434c&oe=5DB05322" class="picture" alt="Agam Jolly Picture"></img>
             <NameHeader> { data.site.siteMetadata.title } </NameHeader> 
             <Description> Student and Full Stack Developer</Description>
             <Content>

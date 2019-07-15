@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 html {
     font-family: 'Source Sans Pro', sans-serif;
@@ -79,8 +79,12 @@ dfn {
 }
 
 h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
+    font-family: 'Nunito', 'Avenir', 'Helvetica', 'sans-serif';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 500;  
+  font-size: 4.2rem;
+    margin-bottom: 0;
 }
 
 mark {

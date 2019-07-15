@@ -9,8 +9,11 @@ const Content = styled.div`
   display: flex;
   max-width: 860px;
   padding: 1rem 1.0875rem;
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   padding-bottom: 0rem;
+  @media only screen and (max-width: 374px) {
+    font-size:1rem;
+  }
 `
 
 const NavLink = styled(Link)`
@@ -19,6 +22,12 @@ const NavLink = styled(Link)`
   text-decoration: none;
   display: inline-block;
   position: relative;
+  @media only screen and (max-width: 374px) {
+    font-size:1rem;
+  }
+  @media only screen and (max-width: 326px) {
+    font-size:0.8rem;
+  }
 
   ::after {
     content: "";
@@ -45,6 +54,12 @@ const GitHubLink = styled.a`
   text-decoration: none;
   display: inline-block;
   position: relative;
+  @media only screen and (max-width: 374px) {
+    font-size:1rem;
+  }
+  @media only screen and (max-width: 326px) {
+    font-size:0.8rem;
+  }
 
   ::after {
     content: "";
@@ -71,6 +86,12 @@ const FacebookLink = styled.a`
   text-decoration: none;
   display: inline-block;
   position: relative;
+  @media only screen and (max-width: 374px) {
+    font-size:1rem;
+  }
+  @media only screen and (max-width: 326px) {
+    font-size:0.8rem;
+  }
 
   ::after {
     content: "";
@@ -96,6 +117,12 @@ const Blog = styled.a`
   text-decoration: none;
   display: inline-block;
   position: relative;
+  @media only screen and (max-width: 374px) {
+    font-size:1rem;
+  }
+  @media only screen and (max-width: 326px) {
+    font-size:0.8rem;
+  }
 
   ::after {
     content: "";
@@ -122,6 +149,12 @@ const Resume = styled.a`
   text-decoration: none;
   display: inline-block;
   position: relative;
+  @media only screen and (max-width: 374px) {
+    font-size:1rem;
+  }
+  @media only screen and (max-width: 326px) {
+    font-size:0.8rem;
+  }
 
   ::after {
     content: "";
