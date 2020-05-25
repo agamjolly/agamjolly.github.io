@@ -1,4 +1,4 @@
-# Personal Website
+# 💻Personal Website
 Personal website built using GatsbyJS, a blazing fast static website generator based on React and GraphQL, deployed on GitHub Pages, and hosted on my personal domain. The website is live at https://www.agamjolly.com/
 
 You may use my website as a starter template for other projects or under the MIT license. 
